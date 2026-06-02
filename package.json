@@ -1,7 +1,7 @@
 {
   "name": "fina",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "dependencies": {
     "@shopify/react-native-skia": "^1.8.3",
     "@tanstack/react-query": "^5.100.14",
