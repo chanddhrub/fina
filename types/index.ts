@@ -49,3 +49,19 @@ export interface MonthlyTrend {
   income: number;
   expenses: number;
 }
+
+export interface PlaidLinkedAccount {
+  plaidAccountId: string;
+  name: string;
+  mask: string | null;
+  type: string;
+  subtype: string | null;
+  balance: number;
+}
+
+export interface PlaidItem {
+  itemId: string;
+  institutionName: string;
+  linkedAt: string;
+  accounts: PlaidLinkedAccount[];
+}
